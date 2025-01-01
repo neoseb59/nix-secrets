@@ -1,7 +1,7 @@
 let
-  user1 = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICjqZAyVHfTqo6LIpWrzQM7ZXQJ7Bg2nfMnVXwXDeLs5";
-  users = [ user1 ];
+  sebastiendancoisne = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICjqZAyVHfTqo6LIpWrzQM7ZXQJ7Bg2nfMnVXwXDeLs5";
+  users = [ sebastiendancoisne ];
 in
 {
-  "secret.age".publicKeys = [ user1 ];
+  "github-ssh-key.age".publicKeys = [ sebastiendancoisne ];
 }
